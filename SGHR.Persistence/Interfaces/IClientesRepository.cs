@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using SGRH.Domain.Entities.Configuration;
+using SGRH.Domain.Repository;    
 
 namespace SGHR.Persistence.Interfaces
 {
-    public interface IClientesRepository : IBaseRepository<Clientes>
+    public interface IClientesRepository : IBaseRepository<Clientes, string>
     {
+
     }
 }
